@@ -1,0 +1,49 @@
+.login-Form
+{
+  padding: 6% 5%;
+}
+
+.form-heading{
+font-family: 'Poppins';
+font-size: 24px;
+} 
+p{
+text-align: center;
+margin-top: 20px;
+
+}
+
+.btn{
+  color: #fff;
+  background-color: #6400aa;
+  border-color: #6400aa;
+}
+.btn:hover{
+background-color: #6400aa;
+  border-color: #6400aa;
+  color: #fff;
+  text-decoration: none;
+}
+.next-link{
+  color: white;
+  text-decoration: none;
+}
+.next-link:hover{
+  color: white;
+}
+#exampleadress1{
+  height: 75px;
+}
+.form-label,label{
+  font-family: 'Poppins';
+  font-size: 17px;
+}
+.next-link{
+ color: #fff;
+}
+.back-link,.next-link{
+  text-decoration: none;
+}
+.col-lg-3{
+ margin-left: auto;
+}
