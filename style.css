@@ -1,10 +1,24 @@
+@font-face {
+  font-family: Bold2;
+  src: url(fonts/LisboaSansOSF-Bold.otf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(fonts/LisboaSansOSF.otf);
+}
+body{
+  font-family: Regular;
+}
+b{
+  font-family: Bold2;
+}
 .login-Form
 {
   padding: 6% 5%;
 }
 
 .form-heading{
-font-family: 'Poppins';
+font-family: Regular;
 font-size: 24px;
 } 
 p{
@@ -31,12 +45,12 @@ background-color: #6400aa;
 .next-link:hover{
   color: white;
 }
-#exampleadress1{
-  height: 75px;
-}
+
 .form-label,label{
-  font-family: 'Poppins';
+  font-family: Regular;
   font-size: 17px;
+
+  margin-bottom: 3px;
 }
 .next-link{
  color: #fff;
@@ -46,4 +60,10 @@ background-color: #6400aa;
 }
 .col-lg-3{
  margin-left: auto;
+}
+.showlink{
+  float: right;
+}
+.remember-melabel{
+  font-size: 14px;
 }
